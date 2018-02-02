@@ -35,24 +35,24 @@ alert(output_2);
 //--------------
 //task 3
 
-let numbers = [
+
+var numbers = [
     Math.floor(Math.random() * (200 - 100) + 100), 
     Math.floor(Math.random() * (200 - 100) + 100), 
     Math.floor(Math.random() * (200 - 100) + 100), 
     Math.floor(Math.random() * (200 - 100) + 100), 
     Math.floor(Math.random() * (200 - 100) + 100)
 ];
- let n1 = numbers[0];
- let n2 = numbers[(numbers.length - 1)];
- let sum = (n1 + n2);
+ var n1 = numbers[0];
+ var n2 = numbers[(numbers.length - 1)];
+ var sum = (n1 + n2);
 
 
 if (sum % 2 === 0){
-    alert (sum + " is even");
+    alert (n1 +" + "+ n2+ " = " + sum +"\n"+ " This is  an even Number");
 } else {
-    alert(sum + " is odd");
+    alert(n1 +" + "+ n2 +" = " + sum +"\n" +" This is  an odd Number");
 }
-
 
 
 
